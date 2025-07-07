@@ -148,7 +148,7 @@ Background_MusicEditor
      NAME: Background Music Editor
    AUTHOR: Gary Davis
  RELEASED: 1983
-REFERENCE: https://csdb.dk/release/?id=138743
+REFERENCE: https://hvmec.altervista.org/blog/?p=3405
 
 Basically_Music
    AUTHOR: Greg Tarr
@@ -356,6 +356,10 @@ Dutch-USA_Team/ProDrum
    AUTHOR: The Dutch USA-Team
  RELEASED: 1988
 REFERENCE: https://csdb.dk/release/?id=20672
+
+ProDrum_2/Antifan
+   AUTHOR: Christian Grün (Antifan)
+REFERENCE: https://csdb.dk/release/?id=74041
 
 Ed/Wrath
    AUTHOR: Eddie Svärd (Ed)
@@ -1477,7 +1481,7 @@ REFERENCE: https://csdb.dk/release/?id=59929
   COMMENT: Released as a type-in listing in the October 1986 issue of the
            German C-64 magazine 64'er.
 
-(BeatBox/KarlXII)
+(BeatBox/Karl_XII)
    AUTHOR: Lars Patrik Wallström (Karl XII)
  RELEASED: 1987 Science 451
 REFERENCE: https://csdb.dk/release/?id=16309
@@ -1745,6 +1749,14 @@ XPMCK
    AUTHOR: Mic
  RELEASED: 2008
 REFERENCE: https://csdb.dk/release/?id=135624
+
+YM-64
+     NAME: YM-64
+   AUTHOR: Norbert Kehrer
+ RELEASED: 2010 Norbert Kehrer
+  COMMENT: Player that plays converted YM file songs made for the Yamaha YM2149
+           and AY-3-8910 sound chips, which were used in old computers such as
+           the Atari ST, Amstrad/Schneider CPC and Sinclair ZX Spectrum.
 
 Yip_MegaSound
      NAME: MegaSound Music Editor
