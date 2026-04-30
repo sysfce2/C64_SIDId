@@ -126,7 +126,7 @@ int main(int argc, char **argv)
                "-s<playername> Scan only for specific player\n"
                "-u             List also unidentified files\n"
                "-? or --help   Display usage information\n");
-        return 0;
+        return EXIT_SUCCESS;
 
     	  case 'm':
         multiscan = 1;
@@ -165,7 +165,7 @@ int main(int argc, char **argv)
   if (!firstid)
   {
     printf("No signatures defined!\n");
-    return 1;
+    return EXIT_FAILURE;
   }
   else printf("\n");
 
@@ -175,7 +175,7 @@ int main(int argc, char **argv)
   chdir(basedir);
 
   printstats();
-  return 0;
+  return EXIT_SUCCESS;
 }
 
 void readconfig(char *name)
